@@ -1,0 +1,62 @@
+@keyframes loadReport {
+  from {
+    transform: translateY(-100px) translateX(-500px) scale(0);
+  }
+  to {
+    transform: translateY(0) translateX(0) scale(1);
+  }
+}
+
+@keyframes loadWork {
+  from {
+    transform: translateY(-500px) translatex(-140px) scale(0);
+  }
+  to {
+    transform: translateY(0) translatex(0) scale(1);
+  }
+}
+
+@keyframes loadPlay {
+  from {
+    transform: translateY(-500px) scale(0);
+  }
+  to {
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes loadStudy {
+  from {
+    transform: translateY(-500px) translatex(150px) scale(0);
+  }
+  to {
+    transform: translateY(0) translatex(0) scale(1);
+  }
+}
+
+@keyframes loadExercise {
+  from {
+    transform: translateY(500px) translatex(-150px) scale(0);
+  }
+  to {
+    transform: translateY(0) translatex(0) scale(1);
+  }
+}
+
+@keyframes loadSocial {
+  from {
+    transform: translateY(400px) translatex(50px) scale(0);
+  }
+  to {
+    transform: translateY(0) translatex(0) scale(1);
+  }
+}
+
+@keyframes loadSelfCare {
+  from {
+    transform: translateY(450px) translatex(250px) scale(0);
+  }
+  to {
+    transform: translateY(0) translatex(0) scale(1);
+  }
+}
