@@ -1,3 +1,45 @@
+@keyframes loadReport {
+  from {
+    transform: translateY(-100px) translateX(-500px) scale(0); }
+  to {
+    transform: translateY(0) translateX(0) scale(1); } }
+
+@keyframes loadWork {
+  from {
+    transform: translateY(-500px) translatex(-140px) scale(0); }
+  to {
+    transform: translateY(0) translatex(0) scale(1); } }
+
+@keyframes loadPlay {
+  from {
+    transform: translateY(-500px) scale(0); }
+  to {
+    transform: translateY(0) scale(1); } }
+
+@keyframes loadStudy {
+  from {
+    transform: translateY(-500px) translatex(150px) scale(0); }
+  to {
+    transform: translateY(0) translatex(0) scale(1); } }
+
+@keyframes loadExercise {
+  from {
+    transform: translateY(500px) translatex(-150px) scale(0); }
+  to {
+    transform: translateY(0) translatex(0) scale(1); } }
+
+@keyframes loadSocial {
+  from {
+    transform: translateY(400px) translatex(50px) scale(0); }
+  to {
+    transform: translateY(0) translatex(0) scale(1); } }
+
+@keyframes loadSelfCare {
+  from {
+    transform: translateY(450px) translatex(250px) scale(0); }
+  to {
+    transform: translateY(0) translatex(0) scale(1); } }
+
 *,
 *::before,
 *::after {
@@ -43,7 +85,11 @@ body {
   position: relative;
   color: #bdc1ff; }
   .item--report {
-    grid-row: 1 / -1; }
+    grid-row: 1 / -1;
+    animation-name: loadReport;
+    animation-duration: 1.3s;
+    animation-delay: 0.1s;
+    animation-fill-mode: backwards; }
     .item--report__top {
       background-color: #5847eb;
       border-radius: 1.5rem;
@@ -92,17 +138,40 @@ body {
         .item--report__bottom__item:hover {
           filter: brightness(1.4); }
   .item--work__wrapper {
-    background-color: #ff8c66; }
+    background-color: #ff8c66;
+    animation-name: loadWork;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards; }
   .item--play__wrapper {
-    background-color: #56c2e6; }
+    background-color: #56c2e6;
+    animation-name: loadPlay;
+    animation-duration: 1.2s;
+    animation-delay: 0.3s;
+    animation-fill-mode: backwards; }
   .item--study__wrapper {
-    background-color: #ff5c7c; }
+    background-color: #ff5c7c;
+    animation-name: loadStudy;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    animation-fill-mode: backwards; }
   .item--exercise__wrapper {
-    background-color: #4acf81; }
+    background-color: #4acf81;
+    animation-name: loadExercise;
+    animation-duration: 1.8s;
+    animation-delay: 0s;
+    animation-fill-mode: backwards; }
   .item--social__wrapper {
-    background-color: #7536d3; }
+    background-color: #7536d3;
+    animation-name: loadSocial;
+    animation-duration: 1.2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards; }
   .item--self-care__wrapper {
-    background-color: #f1c65b; }
+    background-color: #f1c65b;
+    animation-name: loadSelfCare;
+    animation-duration: 1.5s;
+    animation-delay: 0.2s;
+    animation-fill-mode: backwards; }
   .item__icon {
     height: 5.5rem; }
 
