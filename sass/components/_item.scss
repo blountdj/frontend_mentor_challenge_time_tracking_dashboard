@@ -8,6 +8,10 @@
 
   &--report {
     grid-row: 1 / -1;
+    animation-name: loadReport;
+    animation-duration: 1.3s;
+    animation-delay: 0.1s;
+    animation-fill-mode: backwards;
 
     &__top {
       background-color: $color-blue;
@@ -74,36 +78,59 @@
   &--work {
     &__wrapper {
       background-color: $color-light-orange;
+      animation-name: loadWork;
+      animation-duration: 1.5s;
+      animation-fill-mode: backwards;
     }
   }
 
   &--play {
     &__wrapper {
       background-color: $color-soft-blue;
+      animation-name: loadPlay;
+      animation-duration: 1.2s;
+      animation-delay: 0.3s;
+      animation-fill-mode: backwards;
     }
   }
 
   &--study {
     &__wrapper {
       background-color: $color-light-red;
+      animation-name: loadStudy;
+      animation-duration: 1s;
+      animation-delay: 0.1s;
+      animation-fill-mode: backwards;
     }
   }
 
   &--exercise {
     &__wrapper {
       background-color: $color-lime-green;
+      animation-name: loadExercise;
+      animation-duration: 1.8s;
+      animation-delay: 0s;
+      animation-fill-mode: backwards;
     }
   }
 
   &--social {
     &__wrapper {
       background-color: $color-violet;
+      animation-name: loadSocial;
+      animation-duration: 1.2s;
+      animation-delay: 0.5s;
+      animation-fill-mode: backwards;
     }
   }
 
   &--self-care {
     &__wrapper {
       background-color: $color-soft-orange;
+      animation-name: loadSelfCare;
+      animation-duration: 1.5s;
+      animation-delay: 0.2s;
+      animation-fill-mode: backwards;
     }
   }
 
