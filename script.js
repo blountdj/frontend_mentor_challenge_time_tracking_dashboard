@@ -18,7 +18,7 @@ let data;
 let current;
 let previous;
 const previousTextArray = {
-  daily: "Previous",
+  daily: "Yesterday",
   weekly: "Last Week",
   monthly: "Last Month",
 };
