@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style></style>
+  </head>
+  <body>
+    <main class="main">
+      <a
+        href="https://www.frontendmentor.io/profile/blountdj"
+        class="avatar--a"
+        target="_blank"
+        ><img
+          src="https://avatars.githubusercontent.com/u/24497816?v=4"
+          alt="frontend mentor avatar"
+          class="avatar--img"
+          title="frontend mentor profile"
+      /></a>
+      <div class="tracker">
+        <div class="item item--report">
+          <div class="item--report__top">
+            <img
+              src="images/image-jeremy.png"
+              alt="jeremy"
+              class="item--report__top__img"
+            />
+            <p class="item--report__top__p">Report for</p>
+            <h1 class="item--report__top__h1">Jeremy Robson</h1>
+          </div>
+          <div class="item--report__bottom">
+            <p class="item--report__bottom__item active" data-frequency="daily">
+              Daily
+            </p>
+            <p class="item--report__bottom__item" data-frequency="weekly">
+              Weekly
+            </p>
+            <p class="item--report__bottom__item" data-frequency="monthly">
+              Monthly
+            </p>
+          </div>
+        </div>
+
+        <div class="item item--work">
+          <div class="item--work__wrapper top">
+            <img
+              src="images/icon-work.svg"
+              alt="work icon"
+              class="item__icon"
+            />
+          </div>
+
+          <div class="item--work__wrapper bottom">
+            <div class="item item--work bottom__row">
+              <h3 class="item item--work bottom__row--h3">Work</h3>
+              <img
+                src="images/icon-ellipsis.svg"
+                alt="ellipsis"
+                class="ellipsis"
+              />
+            </div>
+            <h2 class="work--time time">5hrs</h2>
+            <p class="work--previous previous">Previous - 7hrs</p>
+          </div>
+        </div>
+
+        <div class="item item--play">
+          <div class="item--play__wrapper top">
+            <img
+              src="images/icon-play.svg"
+              alt="work icon"
+              class="item__icon"
+            />
+          </div>
+          <div class="item--play__wrapper bottom">
+            <div class="item item--play bottom__row">
+              <h3 class="item item--play bottom__row--h3">Play</h3>
+              <img
+                src="images/icon-ellipsis.svg"
+                alt="ellipsis"
+                class="ellipsis"
+              />
+            </div>
+            <h2 class="play--time time">1hr</h2>
+            <p class="play--previous previous">Previous - 2hrs</p>
+          </div>
+        </div>
+
+        <div class="item item--study">
+          <div class="item--study__wrapper top">
+            <img
+              src="images/icon-study.svg"
+              alt="work icon"
+              class="item__icon"
+            />
+          </div>
+          <div class="item--study__wrapper bottom">
+            <div class="item item--study bottom__row">
+              <h3 class="item item--study bottom__row--h3">Study</h3>
+              <img
+                src="images/icon-ellipsis.svg"
+                alt="ellipsis"
+                class="ellipsis"
+              />
+            </div>
+            <h2 class="study--time time">0hrs</h2>
+            <p class="study--previous previous">Previous - 1hr</p>
+          </div>
+        </div>
+
+        <div class="item item--exercise">
+          <div class="item--exercise__wrapper top">
+            <img
+              src="images/icon-exercise.svg"
+              alt="work icon"
+              class="item__icon"
+            />
+          </div>
+          <div class="item--exercise__wrapper bottom">
+            <div class="item item--exercse bottom__row">
+              <h3 class="item item--exercse bottom__row--h3">Exercise</h3>
+              <img
+                src="images/icon-ellipsis.svg"
+                alt="ellipsis"
+                class="ellipsis"
+              />
+            </div>
+            <h2 class="exercise--time time">1hr</h2>
+            <p class="exercise--previous previous">Previous - 1hr</p>
+          </div>
+        </div>
+
+        <div class="item item--social">
+          <div class="item--social__wrapper top">
+            <img
+              src="images/icon-social.svg"
+              alt="work icon"
+              class="item__icon"
+            />
+          </div>
+          <div class="item--social__wrapper bottom">
+            <div class="item item--social bottom__row">
+              <h3 class="item item--social bottom__row--h3">Social</h3>
+              <img
+                src="images/icon-ellipsis.svg"
+                alt="ellipsis"
+                class="ellipsis"
+              />
+            </div>
+            <h2 class="social--time time">1hr</h2>
+            <p class="social--previous previous">Previous - 3hrs</p>
+          </div>
+        </div>
+
+        <div class="item item--self_care">
+          <div class="item--self-care__wrapper top">
+            <img
+              src="images/icon-self-care.svg"
+              alt="work icon"
+              class="item__icon"
+            />
+          </div>
+          <div class="item--self_care__wrapper bottom">
+            <div class="item item--self_care bottom__row">
+              <h3 class="item item--self_care bottom__row--h3">Self Care</h3>
+              <img
+                src="images/icon-ellipsis.svg"
+                alt="ellipsis"
+                class="ellipsis"
+              />
+            </div>
+            <h2 class="selfCare--time time">0hrs</h2>
+            <p class="selfCare--previous previous">Previous - 1hr</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Darren Blount</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+.tracker {
+  display: grid;
+  grid-template-rows: repeat(2, 20rem);
+  grid-template-columns: repeat(4, 22rem);
+  gap: 2rem;
+  margin: 14rem 10rem;
+}
+
+@media (max-width: 1000px) {
+  .tracker {
+    grid-template-rows: repeat(4, 20rem);
+    grid-template-columns: repeat(2, 22rem);
+  }
+}
+
+@media (max-width: 500px) {
+  //   .tracker {
+  //     grid-template-rows: 16rem 16rem 16rem 16rem 16rem 16rem 16rem;
+  //     grid-template-columns: 33rem;
+  //   }
+}
